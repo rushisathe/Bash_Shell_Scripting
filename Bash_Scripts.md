@@ -1,4 +1,4 @@
-## Module 3 - Shell Scripting basics
+## Module 1 - Shell Scripting basics
 
 - Shell is interface between the user and the system.
 - Powerful than windows cmd
@@ -77,4 +77,38 @@ your text is rushikesh sathe is best
 - $0 is script and $1 , $2 are respective arguments
 - after $9 arguments should be enclosed ${10} ${11}....
 - `$#` = number of arguments
+
+#### Assignments:
+
+
+
+## Module 2 - Shell scripting basics part 2
+
+#### Shell Metacharacters
+1.Escaping : backlash (\)
+2.Grave ascent : Backquotes (`)
+3. Partial quoting : double quote (")
+4. Full quoting : single quote (')
+
+#### shell built in variables:
+1. $0 : filename
+2. $# : number of args supplied to script
+3. $* : string containing args
+4. $@ : Array of args a scripts receive
+5. $? : exit status of last cmd
+6. $$ : process ID number of current shell
+
+#### basic shell cmds
+- pwd : present working directory
+- cd ~ : changes to users home directory
+- cd .. : one directory up
+- cd - : return to previous working directory
+- ls -lah : display all files including hidden
+- mv is also used to rename
+
+#### Assignments:
+
+  
+
+
 
