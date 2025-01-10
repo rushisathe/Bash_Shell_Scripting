@@ -111,6 +111,16 @@ added file named ass_1_1 and ass_1_1
 added file by name ass_2_1 and ass_2_1
 
   
+## MOdule 3
+
+### while loop
+
+- while..do..done
+
+- while read -r line; do CMD ; done<input.txt
+- The -r option passed to read command prevents backslash escapes from being interpreted.
+- IFS= to prevent trainling spaces to get trimmed
+- 
 
 
 
