@@ -120,7 +120,48 @@ added file by name ass_2_1 and ass_2_1
 - while read -r line; do CMD ; done<input.txt
 - The -r option passed to read command prevents backslash escapes from being interpreted.
 - IFS= to prevent trainling spaces to get trimmed
-- 
+- > this is for overwritting a file
+- >> this is for append
+
+#### using for
+`for line in $(cat file.txt)`
+`do`
+`  echo $line`
+`done`
+
+
+#### using while 
+-1
+`cat file.txt | while IFS= read -r line;`
+`do`
+` printf '%s\n' "$line"
+`done`
+- 2
+  `file="file/path"`
+  `while IFS= read -r line`
+  `do`
+  `  printf '%s\n' "$line"
+  `done < $file`
+
+## Module 4 - Pipes and Redirections
+
+### Filters
+- something like -- cmd1 | cmd2 | cmd3
+- cat file.txt | sort | uniq
+- Filters below
+1. sort - sort the input line
+2. uniq - discard indenticals ( -d jo cpy hai vo dikhega , -u jo uniq , -c count dikhega line ke samne kitni baar hai vo)
+3. head - shows beginning lines (10 line)
+4. tail - shows ending 10 lines
+5. wc - counts word characters and lines
+6. tr - deletes specific charaters
+7. pr - pr cmd is used for printing files
+8. split - split is used to split a larger file into two or more
+9. cut - cut cmd is used for text processsing
+
+- wc -L == prints longest file in the file
+  
+
 
 
 
