@@ -162,6 +162,21 @@ added file by name ass_2_1 and ass_2_1
 - wc -L == prints longest file in the file
   
 
+## Module 5 - Grep 
 
+### grep 
+
+- grep : global regular expression print
+- syntax : grep options pattern file_name
+
+#### options of grep 
+1. -i : case insensetive
+2. -n : it will print line number in front
+3. -v : print line which do not have pattern
+4.  -c : count number of matching line
+5.  -l : list all files which contain patterns
+6.  -x : exact match
+7.  
+8.  
 
 
