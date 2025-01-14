@@ -180,3 +180,11 @@ added file by name ass_2_1 and ass_2_1
 8.  
 
 
+## Module 6 regular expression
+
+- set of characters
+- Anchors : specifies position of pattern
+- quantifiers : specifies number of symbol could occur
+- character class : match one or more charater in single position
+- 
+
