@@ -188,3 +188,20 @@ added file by name ass_2_1 and ass_2_1
 - character class : match one or more charater in single position
 - 
 
+
+## Module 7 - SED Stream Editor
+
+#### SED - stream editor
+
+- non- intractive
+- sed works line oriented
+- sed is shell independent
+USES :
+1. to automate editing to be performed on one or more files
+2. simplify the task of performing the same edits on multiplefiles
+3. to write conversion programs
+
+SYNTAX
+ sed 'command' filename
+
+sed ke sare 
