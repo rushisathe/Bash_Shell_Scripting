@@ -1,0 +1,84 @@
+rushikesh_sathe@onb-vm3-3:~$ cat file1.txt
+hello
+this is line 1
+rushikesh_sathe@onb-vm3-3:~$ sed 's/is/iss' file1.txt
+sed: -e expression #1, char 8: unterminated `s' command
+rushikesh_sathe@onb-vm3-3:~$ sed 's/is/iss/' file1.txt
+hello
+thiss is line 1
+rushikesh_sathe@onb-vm3-3:~$ sed 's/is/iss/g' file1.txt
+hello
+thiss iss line 1
+rushikesh_sathe@onb-vm3-3:~$ sed '1d' file1.txt
+this is line 1
+rushikesh_sathe@onb-vm3-3:~$ sed '1i\new line added' file1.txt
+new line added
+hello
+this is line 1
+rushikesh_sathe@onb-vm3-3:~$ cat file1.txt
+hello
+this is line 1
+rushikesh_sathe@onb-vm3-3:~$ cat file1.txt
+hello
+this is line 1
+unix is great os. unix is opensource. unix is free os.
+learn operating system.
+unixlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed 's/unix/linux/p' file1.txt
+hello
+this is line 1
+linux is great os. unix is opensource. unix is free os.
+linux is great os. unix is opensource. unix is free os.
+learn operating system.
+linuxlinux which one you choose.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed 's/unix/linux/' file1.txt
+hello
+this is line 1
+linux is great os. unix is opensource. unix is free os.
+learn operating system.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed -i 's/unix/linux/g' file1.txt
+rushikesh_sathe@onb-vm3-3:~$ cat file1.txt
+hello
+this is line 1
+linux is great os. linux is opensource. linux is free os.
+learn operating system.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed 'p' file1.txt
+hello
+hello
+this is line 1
+this is line 1
+linux is great os. linux is opensource. linux is free os.
+linux is great os. linux is opensource. linux is free os.
+learn operating system.
+learn operating system.
+linuxlinux which one you choose.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed -n 'p' file1.txt
+hello
+this is line 1
+linux is great os. linux is opensource. linux is free os.
+learn operating system.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed -n '1,3p' file1.txt
+hello
+this is line 1
+linux is great os. linux is opensource. linux is free os.
+rushikesh_sathe@onb-vm3-3:~$ sed -n '1~2p' file1.txt
+hello
+linux is great os. linux is opensource. linux is free os.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ cat file1.txt
+hello
+this is line 1
+linux is great os. linux is opensource. linux is free os.
+learn operating system.
+linuxlinux which one you choose.
+rushikesh_sathe@onb-vm3-3:~$ sed 's/linux/{&&}/' file1.txt
+hello
+this is line 1
+{linuxlinux} is great os. linux is opensource. linux is free os.
+learn operating system.
+{linuxlinux}linux which one you choose.
