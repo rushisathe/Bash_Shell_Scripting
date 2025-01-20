@@ -1,0 +1,52 @@
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ awk -f test.awk
+helloo world
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ rm test.awk
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ touch test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ chmod u+x test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ test_awk.sh
+-bash: test_awk.sh: command not found
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+awk: cmd. line:1: BEGIN{print
+awk: cmd. line:1:            ^ unexpected newline or end of string
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+awk: cmd. line:1: BEGIN{print
+awk: cmd. line:1:            ^ unexpected newline or end of string
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ cat awk_test
+cat: awk_test: No such file or directory
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ cat awk_test.sh
+cat: awk_test.sh: No such file or directory
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ cat test_awk.sh
+#!/bin/bash
+
+awk BEGIN{print "helllo"};
+
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ^C
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+helllo
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+line oneline two
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+line one
+
+line two
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+110
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+a+b =110
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vim test_awk.sh
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ ./test_awk.sh
+a+b = 110
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ cat test_awk.sh
+#!/bin/bash
+
+awk 'BEGIN{a=33;b=77;print "a+b =",a+b;}'
+
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$
+
