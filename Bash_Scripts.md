@@ -224,5 +224,16 @@ sed ke sare
   2. While
   3. until
      
+## Module 10 - Arrays
+
+- multiple type of values
+
+- initialize methods
+  1. declare -a var
+  2. arr_name[index]=value
+  3. arr=(ele1 ele2 ele3)
+
+
+
 
 
