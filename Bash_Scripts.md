@@ -233,7 +233,25 @@ sed ke sare
   2. arr_name[index]=value
   3. arr=(ele1 ele2 ele3)
 
+## Module 11 - How to debug shell scripts
 
+1. `-n` : command will not execute and also do syntax check
+2. `-v` : line by line output show
 
+## module 12 - Functions
+
+Syntax : `function fxn_name {`
+          `commands..`
+          `}`
+
+          OR
+        `function_name(){`
+        `commands..`
+        `}`
+
+- Function can be anywhere in command also
+- `$?` for return value of function
+- FUNCNAME mai function name stored hai
+- 
 
 
