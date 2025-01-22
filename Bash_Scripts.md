@@ -205,3 +205,35 @@ SYNTAX
  sed 'command' filename
 
 sed ke sare 
+
+## Module 8 - Shell Arithmetic
+
+- Ways to do math in Shell
+  1. Using expr cmd
+  2. using $(())
+  3. using bc cmd
+  4. using $[] construct
+
+## Module 9 - Shell Control Structures
+
+- two types slection structures
+  1. if/then/elif/else/fi
+  2. case
+- iteration structures
+  1. For
+  2. While
+  3. until
+     
+## Module 10 - Arrays
+
+- multiple type of values
+
+- initialize methods
+  1. declare -a var
+  2. arr_name[index]=value
+  3. arr=(ele1 ele2 ele3)
+
+
+
+
+
