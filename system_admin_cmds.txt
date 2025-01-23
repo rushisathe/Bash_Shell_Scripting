@@ -1,0 +1,99 @@
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname
+Linux
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -n
+onb-vm3-3
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -v
+#140-Ubuntu SMP Wed Dec 18 17:59:12 UTC 2024
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -r
+5.15.0-130-generic
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -p
+ppc64le
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -o
+GNU/Linux
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ uname -m
+ppc64le
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ hostname -i
+127.0.1.1
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ hostname -d
+novalocal
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ hostname -s
+onb-vm3-3
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ hostname -f
+onb-vm3-3.novalocal
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ lsof
+COMMAND     PID   TID TASKCMD              USER   FD      TYPE             DEVICE SIZE/OFF       NODE NAME
+systemd       1                            root  cwd   unknown                                        /proc/1/cwd (readlink: Permission denied)
+systemd       1                            root  rtd   unknown                                        /proc/1/root (readlink: Permission denied)
+systemd       1                            root  txt   unknown                                        /proc/1/exe (readlink: Permission denied)
+systemd       1                            root NOFD                                                  /proc/1/fd (opendir: Permission denied)
+kthreadd      2                            root  cwd   unknown                                        /proc/2/cwd (readlink: Permission denied)
+kthreadd      2                            root  rtd   unknown                                        /proc/2/root (readlink: Permission denied)
+kthreadd      2                            root  txt   unknown                                        /proc/2/exe (readlink: Permission denied)
+kthreadd      2                            root NOFD                                                  /proc/2/fd (opendir: Permission denied)
+rcu_gp        3                            root  cwd   unknown                                        /proc/3/cwd (readlink: Permission denied)
+rcu_gp        3                            root  rtd   unknown                                        /proc/3/root (readlink: Permission denied)
+rcu_gp        3                            root  txt   unknown                                        /proc/3/exe (readlink: Permission denied)
+rcu_gp        3                            root NOFD                                                  /proc/3/fd (opendir: Permission denied)
+rcu_par_g     4                            root  cwd   unknown                                        /proc/4/cwd (readlink: Permission denied)
+rcu_par_g     4                            root  rtd   unknown                                        /proc/4/root (readlink: Permission denied)
+rcu_par_g     4                            root  txt   unknown                                        /proc/4/exe (readlink: Permission denied)
+rcu_par_g     4                            root NOFD                                                  /proc/4/fd (opendir: Permission denied)
+slub_flus     5                            root  cwd   unknown                                        /proc/5/cwd (readlink: Permission denied)
+slub_flus     5                            root  rtd   unknown                                        /proc/5/root (readlink: Permission denied)
+slub_flus     5                            root  txt   unknown                                        /proc/5/exe (readlink: Permission denied)
+slub_flus     5                            root NOFD                                                  /proc/5/fd (opendir: Permission denied)
+netns         6                            root  cwd   unknown                                        /proc/6/cwd (readlink: Permission denied)
+netns         6                            root  rtd   unknown                                        /proc/6/root (readlink: Permission denied)
+netns         6                            root  txt   unknown                                        /proc/6/exe (readlink: Permission denied)
+netns         6                            root NOFD                                                  /proc/6/fd (opendir: Permission denied)
+kworker/0     8                            root  cwd   unknown                                        /proc/8/cwd (readlink: Permission denied)
+kworker/0     8                            root  rtd   unknown                                        /proc/8/root (readlink: Permission denied)
+kworker/0     8                            root  txt   unknown                                        /proc/8/exe (readlink: Permission denied)
+kworker/0     8                            root NOFD                                                  /proc/8/fd (opendir: Permission denied)
+mm_percpu    10                            root  cwd   unknown                                        /proc/10/cwd (readlink: Permission denied)
+mm_percpu    10                            root  rtd   unknown                                        /proc/10/root (readlink: Permission denied)
+mm_percpu    10                            root  txt   unknown                                        /proc/10/exe (readlink: Permission denied)
+mm_percpu    10                            root NOFD                                                  /proc/10/fd (opendir: Permission denied)
+rcu_tasks    11                            root  cwd   unknown                                        /proc/11/cwd (readlink: Permission denied)
+rcu_tasks    11                            root  rtd   unknown  
+
+
+
+
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           403M   15M  389M   4% /run
+/dev/sda2        40G  3.0G   35G   8% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           2.0G     0  2.0G   0% /run/qemu
+tmpfs           403M   64K  403M   1% /run/user/1002
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ fd -i
+-bash: fd: command not found
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ df -i
+Filesystem      Inodes IUsed   IFree IUse% Mounted on
+tmpfs            32233   661   31572    3% /run
+/dev/sda2      2616320 58113 2558207    3% /
+tmpfs            32233     1   32232    1% /dev/shm
+tmpfs            32233     4   32229    1% /run/lock
+tmpfs            32233     1   32232    1% /run/qemu
+tmpfs           103136    25  103111    1% /run/user/1002
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ free
+               total        used        free      shared  buff/cache   available
+Mem:         4125824      533184     2218112       14784     1374528     3040000
+Swap:              0           0           0
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ free -b
+               total        used        free      shared  buff/cache   available
+Mem:      4224843776   545652736  2271346688    15138816  1407844352  3113287680
+Swap:              0           0           0
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ iostat
+-bash: iostat: command not found
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ vmstat
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 2218112 106752 1268096    0    0     0    16   20   14  0  0 100  0  0
+rushikesh_sathe@onb-vm3-3:~/git-try/Bash_Shell_Scripting$ df --help
+Usage: df [OPTION]... [FILE]...
+Show information about the file system on which each FILE resides,
+or all file systems by default.
+ 
