@@ -8,4 +8,4 @@ read num2
 sum=$((num1+num2))
 
 echo "sum of two numbers is $sum"
-
+#checked
