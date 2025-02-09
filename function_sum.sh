@@ -2,9 +2,7 @@
 sum(){
 	return $((a+b))
 }
-sub(){
-	return $((a-b))
-}
+
 
 echo enetr a 
 read a
@@ -14,8 +12,4 @@ read b
 sum
 
 ans=$?
-echo your sum is $ans
-
-sub 
-ans2=$?
-echo your sub is $ans2
+echo your sum is $ans2
