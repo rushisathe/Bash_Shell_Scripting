@@ -2,9 +2,6 @@
 sum(){
 	return $((a+b))
 }
-sub(){
-	return $((a-b))
-}
 
 echo enetr a 
 read a
@@ -16,4 +13,4 @@ sum
 ans=$?
 echo your sum is $ans2
 
-sub 
+ 
