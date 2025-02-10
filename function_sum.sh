@@ -2,7 +2,9 @@
 sum(){
 	return $((a+b))
 }
-
+sub(){
+	return $((a-b))
+}
 echo enetr a 
 read a
 echo enter b
